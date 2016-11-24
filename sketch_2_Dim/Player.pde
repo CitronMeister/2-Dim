@@ -1,6 +1,6 @@
 class player {
-  int X;
-  int Y;
+  int x;
+  int y;
   float playerWidth;
   float playerHeight = playerWidth * 1.5;
   boolean world;

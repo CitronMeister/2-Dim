@@ -1,5 +1,5 @@
 player p = new player();
-portals portal = new portals();
+portal portal = new portal();
 world w = new world();
 
 void setup(){
