@@ -1,3 +1,4 @@
+/*
 class portal {
   float heavenX;
   float heavenY;
@@ -35,3 +36,4 @@ class portal {
     }
   }
 }
+*/
