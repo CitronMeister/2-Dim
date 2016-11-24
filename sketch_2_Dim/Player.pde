@@ -1,14 +1,18 @@
 class player {
-  int X;
-  int Y;
+  int x;
+  int y;
   float playerWidth;
   float playerHeight = playerWidth * 1.5;
-  boolean world;
-
-  player(boolean world){
-   this.world = world;
+  int world = 1;
+  
+  player(int x, int y, float playerWidth, int world){
+  this.x = x;
+  this.y = y;
+  this.playerWidth = playerWidth;
+  this. world = world;
   }
-  
-  
+  void display(int x,int y,float playerWidth, float playerHeight){
+    rect(x,y,playerWidth,playerHeight);
+  }
 
 }
