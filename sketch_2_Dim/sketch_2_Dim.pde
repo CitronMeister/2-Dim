@@ -1,12 +1,11 @@
 player p = new player();
-//portals portal = new portals();
+portals portal = new portals();
 world w = new world();
-ui ui = new ui();
 
 void setup(){
-  fullScreen();
+  size(500, 500);
 }
 
 void draw(){
-  ui.bottomBar();
+  
 }
